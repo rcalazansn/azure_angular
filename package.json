@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-	"postinstall": "npm install -g @angular/cli"
+	"postinstall": "npm run build npm"
   },
   "private": true,
   "dependencies": {
